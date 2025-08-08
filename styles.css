@@ -1,19 +1,76 @@
 
 .container{
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
 
 
-}header {
-     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/image/santo-domingo-landscape.jpg");
    background-size: cover;
     color: white;
     text-align: center;
     padding: 150px 0px;
-    line-height: 1;
+    line-height: 1.3;
   
 }
+
+footer{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/image/santo-domingo-footer.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0px;
+}
+
+
+.footer-container{
+  display: grid;
+ grid-template-columns: 1fr 2fr 1fr;
+ padding: 150px 60px 100px 60px;
+
+}
+
+.info{
+  color: white;
+}
+
+.info h3{
+    font-size: 20px;
+     text-align: start;
+     line-height: 1.5;
+}
+
+.info p {
+ font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  text-align: start;
+text-decoration: none;
+line-height: 1.7;
+}
+
+
+.info-links{
+display: grid;
+ grid-template-rows: 1fr 1fr 1fr;
+ text-align: start;
+  grid-gap: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.info-links a{
+    color: white;
+    text-decoration: none;
+}
+
+
 
 h1{
     font-family: "Poppins", sans-serif;
@@ -23,15 +80,28 @@ h1{
 }
 
 h2{
-      font-family: "Poppins", sans-serif;
+ font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
+ 
 
 h3{
     font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 30px;
+}
+
+.header-button{
+    background-color: white;
+    color: #272044;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
+    
 }
