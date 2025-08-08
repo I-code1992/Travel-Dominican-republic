@@ -127,6 +127,7 @@ h3{
   font-size: 17px;
   line-height: 0;
   color:#272044;
+  
 }
 
 .section-2-column h2{
@@ -145,4 +146,47 @@ h3{
   font-size: 15px;
   line-height: 1.5;
   color:#272044;
+}
+
+.secondary{
+    background-color: #F8F8F8;
+}
+
+
+.secondary-header{
+    text-align: center;
+    line-height: 0.5;
+}
+
+.secondary-header h2{
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.secondary-header h3{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+
+}
+
+
+.grid-3-column{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    background-color: grey;
+}
+
+
+.card h4{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+
 }
