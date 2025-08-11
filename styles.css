@@ -93,6 +93,7 @@ h3{
   font-size: 30px;
 }
 
+
 .header-button{
     background-color: white;
     color: #272044;
@@ -149,9 +150,8 @@ h3{
 }
 
 .secondary{
-    background-color: #F8F8F8;
+   background-color: #F8F8F8;
 }
-
 
 .secondary-header{
     text-align: center;
@@ -174,19 +174,63 @@ h3{
 }
 
 
+
 .grid-3-column{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 80px 80px 80px 80px;
+
 }
 
 .card{
-    background-color: grey;
+background-color: white;
+text-align: start;
+line-height: 2;
+ padding: 20px 20px 20px 20px;
 }
 
 
 .card h4{
+     font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+
+}
+
+.card h5{
+ font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+
+}
+
+
+.card p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+
+}
+
+
+.img-one{
+    width: 160px;
+}
+
+
+.card-button{
+    display: block;
+    text-align: center; 
+    padding: 16px;
+    background-color: #462CB2;
+    color: #FFFFFF;  
+    text-decoration: none;
     font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 15px;
-
+  
 }
