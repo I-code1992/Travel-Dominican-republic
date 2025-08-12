@@ -235,3 +235,14 @@ grid-template-columns: 1fr 1fr;
   font-size: 15px;
   
 }
+
+.img-view{
+    width: 100%;
+}
+
+.section-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 50px 80px 80px 80px;
+}
