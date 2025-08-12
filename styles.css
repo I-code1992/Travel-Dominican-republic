@@ -74,13 +74,14 @@ h1{
     font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 60px;
+  font-size: 55px;
 }
 
 h2{
  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 25px;
 }
  
 
@@ -235,7 +236,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 .img-view{
-    width: 100px;
+    width: 350px;
 }
 
 .embed{
@@ -250,10 +251,10 @@ grid-template-columns: 1fr 1fr;
     padding: 50px 80px 80px 80px;
 }
 
-@media(max-width:900px){
+@media(max-width:950px){
 .section-2-column{
 display: contents;
-text-align: center;
+text-align: start;
 }
 
 .section-2-column img{
@@ -271,6 +272,17 @@ display: none;
   padding-top: 40px;
   
 }
+
+
+.section-2-column P{
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  color:#272044;
+}
+
 
 .secondary-header h3{
     font-family: "Poppins", sans-serif;
