@@ -31,6 +31,14 @@ footer{
 
 }
 
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
 .info{
   color: white;
 }
@@ -121,8 +129,10 @@ h3{
 
 
 
-.img-responsive{
+.img-santo{
     max-width: 100%;
+    filter: brightness(99%) contrast(116%);
+
 }
 
 .section-2-column h3{
