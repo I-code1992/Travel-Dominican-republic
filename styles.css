@@ -241,7 +241,8 @@ grid-template-columns: 1fr 1fr;
 }
 
 .img-view{
-    width: 350px;
+    width: 380px;
+    border-radius: 5px;
 }
 
 .embed{
@@ -252,7 +253,7 @@ grid-template-columns: 1fr 1fr;
 .section-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 5px;
     padding: 50px 80px 80px 80px;
 }
 
