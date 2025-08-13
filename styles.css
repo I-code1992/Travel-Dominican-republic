@@ -193,6 +193,7 @@ h3{
 .grid-3-column{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px;
     padding: 80px 80px 80px 80px;
 
 }
